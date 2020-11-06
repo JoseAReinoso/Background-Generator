@@ -1,0 +1,48 @@
+body{
+    font:'Raleway', sans-serif;
+    color:rgba(0,0,0,5);
+    text-align:center;
+    text-transform:uppercase;
+    letter-spacing: .5em;
+    top:15%;
+    /*this here gives that great blend of color on the background*/
+    background:linear-gradient(to right, red, yellow)
+
+}
+
+h1{
+    font: 600 3.5em 'Raleway',sans-serif;
+    color:rgba(0,0,0,5);
+    text-align: center;
+    text-transform:uppercase;
+    letter-spacing: .5em;
+    width:100%
+}
+
+h5{
+    border-bottom: 2px dotted black;
+}
+
+h3{
+    font:900 3.5em 'Raleway',sans-serif;
+    color:rgba(0,0,0,5);
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0.01em;
+}
+
+#Rbutton{
+    background:linear-gradient(to right, red, yellow);
+    border-radius: 12px;
+    padding:10px;
+    color:white;
+    font-size: medium;
+    font-weight: bolder;
+    border: 2px solid black;
+    cursor: pointer;
+
+}
+
+#Rbutton:hover{
+    background:rgba(0, 0, 0, 0) linear-gradient(to right, rgb(103, 199, 170), rgb(255, 0, 0)) repeat scroll 0% 0%;
+}

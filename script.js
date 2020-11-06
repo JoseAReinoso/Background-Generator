@@ -1,6 +1,10 @@
+//pulling h3 to then insert css generated on it
 var h3 = document. querySelector("h3");
+//pulling input 1 to then add an event listener to then call setGreadient function
 var color1 = document.querySelector(".color1")
+//pulling input 2 to then add an event listener to then call setGreadient function
 var color2 = document.querySelector(".color2")
+//pulling whole body ID here to have color reflected on the whole body
 var body = document.getElementById("gradient")
 var rButton = document.getElementById("Rbutton")
 
@@ -13,8 +17,9 @@ function setGradient (){
     h3.textContent = `background: ${body.style.background};`
     h3.style.fontSize ="1rem"
 }
-//Button to randomize colors
+//function to randomize colors
 function randomGradient(){
+    //these variables are ramdomizing css colors
     var randomColor1 = Math.floor(Math.random()*16777215).toString(16);
     var randomColor2 = Math.floor(Math.random()*16777215).toString(16);
     body.style.background =`
